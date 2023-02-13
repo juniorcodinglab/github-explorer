@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    // Adiciona algumas funcionalidades e informar que a gente está trabalahando com formato DOM
+    "lib": ["dom", "dom.iterable", "esnext"],
+    // Poder ter arquivos JS na aplicação, quanto TS. (Podemos utilizar os 2)
+    "allowJs": true,
+    // Utilizando o JSX do React
+    "jsx": "react-jsx",
+    // Execultar o Build da aplicação ele não emitir o código
+    "noEmit": true,
+    // Modo como lidar com erro no JS ativado
+    "strict": true,
+    "moduleResolution": "node",
+    // Importar arquivos JSON
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+  },
+  // Espécificando que todo o nosso Código TS/JS está dentro dessa pasta
+  "include": ["src"]
+}
